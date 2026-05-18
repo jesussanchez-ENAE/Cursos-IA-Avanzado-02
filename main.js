@@ -110,34 +110,39 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission handling
-const leadForm = document.getElementById('lead-form');
-if (leadForm) {
-    leadForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const button = leadForm.querySelector('button');
-        const originalText = button.innerText;
-        
-        button.innerText = 'PROCESANDO...';
-        button.style.opacity = '0.7';
-        button.disabled = true;
-
-        // Simulate API call
-        setTimeout(() => {
-            button.innerText = '¡REGISTRO COMPLETADO!';
-            button.style.backgroundColor = '#28a745';
-            button.style.opacity = '1';
+// Form submission handling for all lead forms
+const setupLeadForm = (formId) => {
+    const leadForm = document.getElementById(formId);
+    if (leadForm) {
+        leadForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const button = leadForm.querySelector('button');
+            const originalText = button.innerText;
             
-            // Reset form after delay
+            button.innerText = 'PROCESANDO...';
+            button.style.opacity = '0.7';
+            button.disabled = true;
+
+            // Simulate API call
             setTimeout(() => {
-                leadForm.reset();
-                button.innerText = originalText;
-                button.style.backgroundColor = 'var(--accent-color)';
-                button.disabled = false;
-            }, 3000);
-        }, 1500);
-    });
-}
+                button.innerText = '¡REGISTRO COMPLETADO!';
+                button.style.backgroundColor = '#28a745';
+                button.style.opacity = '1';
+                
+                // Reset form after delay
+                setTimeout(() => {
+                    leadForm.reset();
+                    button.innerText = originalText;
+                    button.style.backgroundColor = 'var(--accent-color)';
+                    button.disabled = false;
+                }, 3000);
+            }, 1500);
+        });
+    }
+};
+
+setupLeadForm('lead-form');
+setupLeadForm('lead-form-final');
 
 // Interactive Mouse-Tracking Card Glows
 const initMouseGlow = () => {

@@ -10,6 +10,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         /* Specific section styles */
+        .nav {
+            top: 3.2rem !important;
+        }
+        .top-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 32px;
+            background: linear-gradient(90deg, #a81730, #6e0f20);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        @media (max-width: 768px) {
+            .top-banner {
+                font-size: 0.6rem;
+                letter-spacing: 0.05em;
+                padding: 0 1rem;
+                text-align: center;
+                line-height: 1.2;
+            }
+            .nav {
+                top: 2.8rem !important;
+            }
+        }
         .hero {
             min-height: 100vh;
             display: flex;
@@ -560,6 +594,9 @@
 </head>
 
 <body>
+    <div class="top-banner">
+        ✨ 100% Bonificable por Fundae · Formación Ejecutiva de Alto Impacto
+    </div>
     <nav class="nav">
         <div class="nav-content">
             <div class="logo">
@@ -589,23 +626,46 @@
                     <span
                         style="width: 6px; height: 6px; background: var(--accent-color); border-radius: 50%; display: inline-block; box-shadow: 0 0 8px var(--accent-color);"></span>
                     <span
-                        style="font-family: var(--font-mono); font-size: 0.75rem; color: #fff; letter-spacing: 0.15em; font-weight: 700; text-transform: uppercase;">PROGRAMA
-                        INTERMEDIO DE IA</span>
+                        style="font-family: var(--font-mono); font-size: 0.75rem; color: #fff; letter-spacing: 0.15em; font-weight: 700; text-transform: uppercase;">IA APLICADA AL NEGOCIO REAL</span>
                 </div>
                 <h1 style="font-size: 5.5rem; line-height: 0.9; margin-bottom: 2rem; font-weight: 900;">
-                    LA FÁBRICA <br>
-                    <span class="text-gradient">DE AGENTES</span>
+                    SÉ UN NUEVO <br>
+                    <span class="text-gradient">PROFESIONAL<br>AUMENTADO<br>POR LA IA</span>
                 </h1>
-                <p style="font-size: 1.2rem; margin-bottom: 3.5rem; color: #aaa; max-width: 550px; line-height: 1.8;">
-                    Aprende a crear software y agentes con IA sin programar. <br>
-                    <span style="color: white; font-weight: bold;">Un programa intensivo de ENAE Business School.</span>
+                <p style="font-size: 1.1rem; margin-bottom: 2.5rem; color: #aaa; max-width: 600px; line-height: 1.7;">
+                    Aprende a implementar la Inteligencia Artificial en tu negocio o empresa para agilizar procesos, trabajando de manera más inteligente y eficiente. Utiliza lo último en aplicaciones de IA para impactar directamente en tus resultados desde el primer día.
+                    <br><span style="color: var(--secondary-accent); font-weight: bold; font-family: var(--font-mono); font-size: 0.85rem; margin-top: 1rem; display: block; text-transform: uppercase; letter-spacing: 0.05em;">Caso de uso real: Aprende haciendo, no escuchando.</span>
                 </p>
                 <div class="hero-buttons" style="display: flex; gap: 2rem; align-items: center;">
-                    <a href="#registro" class="btn btn-primary">Solicita información ahora</a>
+                    <a href="#contacto-final" class="btn btn-primary">Quiero impulsar mi negocio con IA</a>
                     <a href="#riesgo"
                         style="color: white; text-decoration: none; font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.1em; display: flex; align-items: center; gap: 0.5rem;">
                         VER IMPACTO <span style="color: var(--accent-color);">→</span>
                     </a>
+                </div>
+                <!-- Cinta de Beneficios Inmediatos -->
+                <div class="hero-benefits-ribbon" style="display: flex; gap: 2rem; margin-top: 3.5rem; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="color: var(--accent-color); font-size: 1.2rem;">✔️</span>
+                        <div>
+                            <p style="font-family: var(--font-mono); font-size: 0.65rem; color: #888; text-transform: uppercase; margin: 0; letter-spacing: 0.05em;">Duración</p>
+                            <p style="font-size: 0.85rem; color: white; font-weight: 700; margin: 0;">50 horas lectivas intensivas</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="color: var(--accent-color); font-size: 1.2rem;">✔️</span>
+                        <div>
+                            <p style="font-family: var(--font-mono); font-size: 0.65rem; color: #888; text-transform: uppercase; margin: 0; letter-spacing: 0.05em;">Bonus Especial</p>
+                            <p style="font-size: 0.85rem; color: white; font-weight: 700; margin: 0;">Herramientas & Licencias gratis (1 año)</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="color: var(--accent-color); font-size: 1.2rem;">✔️</span>
+                        <div>
+                            <p style="font-family: var(--font-mono); font-size: 0.65rem; color: #888; text-transform: uppercase; margin: 0; letter-spacing: 0.05em;">Recursos Extra</p>
+                            <p style="font-size: 0.85rem; color: white; font-weight: 700; margin: 0;">+100h Biblioteca Digital</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="registro" class="hero-form glass"
@@ -652,24 +712,22 @@
                 <p
                     style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem;">
                     LA REALIDAD DEL MERCADO</p>
-                <h2 style="font-size: 3.5rem; line-height: 1;">El Impacto de la <br><span
-                        class="text-gradient">Automatización</span></h2>
+                <h2 style="font-size: 3.5rem; line-height: 1.1;">Pasa de consumidor de herramientas <br><span
+                        class="text-gradient">a arquitecto de tu propia tecnología</span></h2>
             </div>
 
             <div class="bento-grid">
                 <!-- Market narrative -->
                 <div class="bento-card"
                     style="grid-column: span 7; display: flex; flex-direction: column; justify-content: center;">
-                    <h3 style="font-size: 2.2rem; line-height: 1.1; margin-bottom: 1.5rem;">La IA ya está transformando
-                        <span class="text-gradient">empresas y procesos</span>
+                    <h3 style="font-size: 2.2rem; line-height: 1.1; margin-bottom: 1.5rem;">¿Por qué es urgente
+                        <span class="text-gradient">este programa ejecutivo?</span>
                     </h3>
                     <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-                        La inteligencia artificial está automatizando operaciones complejas y sustituyendo tareas
-                        repetitivas a un ritmo sin precedentes.
+                        Sin una adaptación real, el porcentaje de empleos en riesgo pasará del 18% actual al 62% en 2035.
                     </p>
                     <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8; margin: 0;">
-                        Quedarse atrás significa perder competitividad frente a empresas que ya trabajan con
-                        automatización, agentes inteligentes y herramientas de software interno personalizadas.
+                        Sin embargo, los datos demuestran que las empresas que adoptan estratégicamente la IA logran contener este impacto en torno al 12%.
                     </p>
                 </div>
 
@@ -716,22 +774,22 @@
                         style="background: rgba(255, 255, 255, 0.02); border-radius: var(--border-radius-md); padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.02);">
                         <p
                             style="font-size: 10px; color: var(--color-text-secondary); margin-bottom: 2px; font-family: var(--font-mono);">
-                            Empleos eliminados (2030)</p>
-                        <p style="font-size: 24px; font-weight: 900; color: white;">92M</p>
+                            Empleos necesitan adaptación</p>
+                        <p style="font-size: 24px; font-weight: 900; color: white;">60%</p>
                     </div>
                     <div
                         style="background: rgba(255, 255, 255, 0.02); border-radius: var(--border-radius-md); padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.02);">
                         <p
                             style="font-size: 10px; color: var(--color-text-secondary); margin-bottom: 2px; font-family: var(--font-mono);">
-                            Trabajadores deben reconvertirse</p>
-                        <p style="font-size: 24px; font-weight: 900; color: white;">375M</p>
+                            Reducción de plantilla (24-35)</p>
+                        <p style="font-size: 24px; font-weight: 900; color: white;">43%</p>
                     </div>
                     <div
                         style="background: rgba(255, 255, 255, 0.02); border-radius: var(--border-radius-md); padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.02);">
                         <p
                             style="font-size: 10px; color: var(--color-text-secondary); margin-bottom: 2px; font-family: var(--font-mono);">
-                            Habilidades obsoletas en 2030</p>
-                        <p style="font-size: 24px; font-weight: 900; color: white;">39%</p>
+                            Automatización proyectada (2030)</p>
+                        <p style="font-size: 24px; font-weight: 900; color: white;">30%</p>
                     </div>
                 </div>
 
@@ -746,6 +804,57 @@
                         style="font-size:10px;color:var(--color-text-secondary);margin:1.5rem 0 0;border-top:1px solid rgba(255,255,255,0.05);padding-top:0.75rem; font-family: var(--font-mono);">
                         Fuentes: WEF Future of Jobs Report 2025 · McKinsey Global Institute · PwC Global Workforce.
                         Estimaciones promediadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROPUESTA DE VALOR -->
+    <section id="propuesta-valor" style="background: linear-gradient(to bottom, #050505, #000000); padding: 10rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="parallax-bg" style="background-image: url('./Links/src/Recurso 2.svg');"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="margin-bottom: 5rem; text-align: left;">
+                <p style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem; text-transform: uppercase;">
+                    PROPUESTA DE VALOR
+                </p>
+                <h2 style="font-size: 3.5rem; line-height: 1.1; color: white;">
+                    Un programa 100% práctico para <br><span class="text-gradient">transformar tu empresa con IA</span>
+                </h2>
+                <p style="color: #aaa; max-width: 700px; font-size: 1.1rem; line-height: 1.7; margin-top: 1.5rem;">
+                    Deja atrás el uso superficial de herramientas comerciales y comienza a construir soluciones reales a la medida de tu negocio.
+                </p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Area 1 -->
+                <div class="bento-card style-3d style-glow" style="grid-column: span 4;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1.5rem;">⚡</div>
+                    <h4 style="font-size: 1.25rem; color: white; margin-bottom: 0.75rem;">Desarrollo Ágil</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Crea micro-aplicaciones avanzadas mediante el uso de prompts estructurados.</p>
+                </div>
+                <!-- Area 2 -->
+                <div class="bento-card" style="grid-column: span 4;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1.5rem;">📣</div>
+                    <h4 style="font-size: 1.25rem; color: white; margin-bottom: 0.75rem;">Atención y Marketing</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Diseña agentes inteligentes especializados para marketing y soporte al cliente.</p>
+                </div>
+                <!-- Area 3 -->
+                <div class="bento-card" style="grid-column: span 4;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1.5rem;">🔌</div>
+                    <h4 style="font-size: 1.25rem; color: white; margin-bottom: 0.75rem;">Sistemas Conectados</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Automatiza procesos empresariales integrando la IA con las bases de conocimiento propias de tu empresa.</p>
+                </div>
+                <!-- Area 4 -->
+                <div class="bento-card" style="grid-column: span 6;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1.5rem;">📊</div>
+                    <h4 style="font-size: 1.25rem; color: white; margin-bottom: 0.75rem;">Visualización de Datos</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Prototipa dashboards interactivos y herramientas web funcionales.</p>
+                </div>
+                <!-- Area 5 -->
+                <div class="bento-card" style="grid-column: span 6;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1.5rem;">🎯</div>
+                    <h4 style="font-size: 1.25rem; color: white; margin-bottom: 0.75rem;">Estrategia Corporativa</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Diseña la hoja de ruta de IA definitiva para tu organización.</p>
                 </div>
             </div>
         </div>
@@ -996,9 +1105,7 @@
             <!-- Footer de estimación -->
             <p
                 style="font-size: 10px; color: #777; margin-top: 4rem; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 1.5rem; font-family: var(--font-mono); text-align: left;">
-                * Estimaciones orientativas para un análisis típico de negocio. Los resultados reales varían según la
-                complejidad del ecosistema de datos corporativos y el nivel de entrenamiento de los agentes inteligentes
-                construidos en el programa.
+                * Estimaciones orientativas para un análisis típico de negocio. Los resultados reales pueden variar según la complejidad del caso.
             </p>
         </div>
     </section>
@@ -1012,111 +1119,162 @@
             <div style="margin-bottom: 5rem; text-align: left;">
                 <p
                     style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem;">
-                    ¿QUÉ APRENDERÁS?</p>
-                <h2 style="font-size: 3.5rem; line-height: 1;">Contenido del <br><span
-                        class="text-gradient">Programa</span></h2>
+                    PLAN DE ESTUDIOS</p>
+                <h2 style="font-size: 3.5rem; line-height: 1;">Estructura Modular <br><span
+                        class="text-gradient">de Contenidos</span></h2>
+                <p style="font-family: var(--font-mono); color: var(--secondary-accent); font-size: 1.1rem; margin-top: 1rem; font-weight: bold;">
+                    ⏱️ Duración total: 50 horas de formación aplicable.
+                </p>
             </div>
 
             <div class="accordion">
-                <!-- Item 1 -->
+                <!-- Módulo 1.1 -->
                 <div class="accordion-item active" data-index="0">
                     <div class="accordion-header">
-                        <h3 class="accordion-trigger"><span class="num">3.1 //</span> Software con IA — Google
-                            Antigravity</h3>
+                        <h3 class="accordion-trigger"><span class="num">1.1 //</span> Fundamentos de IA Profesional</h3>
                         <span class="accordion-icon">+</span>
                     </div>
                     <div class="accordion-content">
                         <div class="accordion-inner">
                             <div>
                                 <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-                                    Aprende a crear herramientas, aplicaciones y tableros interactivos mediante
-                                    instrucciones lógicas dadas a una inteligencia artificial.
+                                    Descubre los cimientos del ecosistema de la Inteligencia Artificial y de qué forma está transformando de raíz el panorama laboral y profesional.
                                 </p>
                                 <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8;">
-                                    Olvídate del código tradicional y crea de forma ágil soluciones internas seguras y
-                                    escalables para tu equipo o clientes, todo de forma totalmente visual y sin
-                                    programar.
+                                    Aprende a identificar las mejores oportunidades de optimización y a integrar la IA de forma segura en tu rutina diaria desde las primeras horas.
                                 </p>
                             </div>
                             <div>
-                                <h4
-                                    style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">
-                                    PROYECTOS QUE CONSTRUIRÁS:</h4>
+                                <h4 style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">CONTENIDOS CLAVE:</h4>
                                 <ul class="program-list">
-                                    <li>Microapps de consumo interno para tu empresa</li>
-                                    <li>Dashboards y analíticas de datos en tiempo real</li>
-                                    <li>Landing pages completas optimizadas para captación</li>
-                                    <li>Herramientas internas para optimización de flujos de trabajo</li>
-                                    <li>Automatizaciones de procesos repetitivos automatizados</li>
+                                    <li>Evolución tecnológica de la IA y su impacto laboral.</li>
+                                    <li>Taller práctico: Creación de tus primeros prompts estructurados.</li>
+                                    <li>Integración de herramientas fundamentales: ChatGPT y Gemini.</li>
+                                    <li>Gestión de la seguridad y confidencialidad corporativa.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Item 2 -->
+                <!-- Módulo 1.2 -->
                 <div class="accordion-item" data-index="1">
                     <div class="accordion-header">
-                        <h3 class="accordion-trigger"><span class="num">3.2 //</span> Agentes de Marketing — Copilot
-                            Studio</h3>
+                        <h3 class="accordion-trigger"><span class="num">1.2 //</span> Prompt Engineering Aplicado</h3>
                         <span class="accordion-icon">+</span>
                     </div>
                     <div class="accordion-content">
                         <div class="accordion-inner">
                             <div>
                                 <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-                                    Diseña y entrena asistentes virtuales inteligentes capaces de operar en canales de
-                                    mensajería las 24 horas del día.
+                                    Domina las técnicas avanzadas de comunicación con modelos de lenguaje. Pasa de simples preguntas a diseñar instrucciones corporativas robustas.
                                 </p>
                                 <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8;">
-                                    Conecta la IA con tus bases de datos corporativas para calificar leads, automatizar
-                                    respuestas complejas y cerrar ventas de forma segura y controlada.
+                                    Diseña estructuras lógicas, flujos de razonamiento y prompts especializados por rol profesional para obtener respuestas de máxima precisión.
                                 </p>
                             </div>
                             <div>
-                                <h4
-                                    style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">
-                                    HABILIDADES CLAVE:</h4>
+                                <h4 style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">HABILIDADES CLAVE:</h4>
                                 <ul class="program-list">
-                                    <li>Crear chatbots conversacionales para web y WhatsApp</li>
-                                    <li>Diseñar flujos de captación y cualificación de leads automáticos</li>
-                                    <li>Automatizar la atención de solicitudes de clientes frecuentes</li>
-                                    <li>Conectar con total seguridad tus documentos corporativos</li>
-                                    <li>Configurar filtros de moderación y respuestas seguras</li>
+                                    <li>Arquitectura técnica y diseño avanzado de prompts.</li>
+                                    <li>Aplicación de Cadenas de Razonamiento (Chain of Thought).</li>
+                                    <li>Configuración de prompts especializados por rol profesional.</li>
+                                    <li>Construcción de tu biblioteca personal de prompts.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Item 3 -->
+                <!-- Módulo 1.3 -->
                 <div class="accordion-item" data-index="2">
                     <div class="accordion-header">
-                        <h3 class="accordion-trigger"><span class="num">3.3 //</span> Cerebros Visuales — Flowise</h3>
+                        <h3 class="accordion-trigger"><span class="num">1.3 //</span> Investigación y Análisis Inteligente</h3>
                         <span class="accordion-icon">+</span>
                     </div>
                     <div class="accordion-content">
                         <div class="accordion-inner">
                             <div>
                                 <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-                                    Construye arquitecturas avanzadas de inteligencia artificial conectando bloques de
-                                    lógica visuales mediante sistemas Drag & Drop.
+                                    Utiliza el motor de búsqueda en tiempo real e investigación asistida más potente del mercado para análisis de mercado e investigación sectorial rápida.
                                 </p>
                                 <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8;">
-                                    Une modelos de lenguaje, bases vectoriales y herramientas de terceros para crear
-                                    sistemas RAG con memoria persistente y procesos lógicos automatizados.
+                                    Aprende a de-estructurar consultas complejas y a sintetizar volúmenes masivos de datos web en informes ejecutivos redactados de forma automática.
                                 </p>
                             </div>
                             <div>
-                                <h4
-                                    style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">
-                                    APLICACIONES QUE DESARROLLARÁS:</h4>
+                                <h4 style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">TALLERES PRÁCTICOS:</h4>
                                 <ul class="program-list">
-                                    <li>Flujos avanzados Drag & Drop mediante nodos lógicos</li>
-                                    <li>Asistentes virtuales con gestión de memoria avanzada</li>
-                                    <li>Sistemas RAG conectados a tus documentos de negocio</li>
-                                    <li>Bases de conocimiento dinámicas e hiper-personalizadas</li>
-                                    <li>Agentes inteligentes integrados con APIs de terceros</li>
+                                    <li>Explotación de Perplexity para la investigación avanzada de mercados.</li>
+                                    <li>Estrategias de búsqueda estructurada e información competitiva.</li>
+                                    <li>Taller práctico: Elaboración automatizada de un informe ejecutivo completo generado con IA.</li>
+                                    <li>Mitigación de alucinaciones y validación de fuentes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo 1.4 -->
+                <div class="accordion-item" data-index="3">
+                    <div class="accordion-header">
+                        <h3 class="accordion-trigger"><span class="num">1.4 //</span> Productividad y Automatización</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <div>
+                                <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                                    Integra los modelos de inteligencia artificial dentro de flujos de trabajo automatizados para eliminar tareas mecánicas y repetitivas.
+                                </p>
+                                <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8;">
+                                    Libera hasta un 90% de tiempo administrativo mediante la orquestación inteligente de flujos con disparadores basados en eventos y APIs.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">APLICACIONES OPERATIVAS:</h4>
+                                <ul class="program-list">
+                                    <li>Diseño conceptual e implementación de un flujo integral IA + automatización.</li>
+                                    <li>Sincronización de correos, CRM y bases de datos con IA.</li>
+                                    <li>Configuración práctica de motores de orquestación (n8n/Make).</li>
+                                    <li>Proyecto: Creación de un flujo integral auto-gestionado.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo Especial -->
+                <div class="accordion-item" data-index="4">
+                    <div class="accordion-header">
+                        <h3 class="accordion-trigger"><span class="num">ESP //</span> Módulo Especial: Cerebros Visuales</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <div>
+                                <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                                    Aprende a orquestar y programar lógicas complejas de manera 100% visual mediante interfaces Drag & Drop usando la herramienta open-source líder en la industria.
+                                </p>
+                                <p style="color: #aaa; font-size: 1.1rem; line-height: 1.8;">
+                                    Conecta modelos vectoriales (memoria a largo plazo) con el conocimiento exclusivo de tu organización para que los agentes asistan con contexto absoluto y real.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style="font-size: 0.9rem; color: white; margin-bottom: 1.2rem; font-family: var(--font-mono);">ARQUITECTURA AVANZADA:</h4>
+                                <ul class="program-list">
+                                    <li>Orquestación Visual Open Source: Instalación y uso práctico de Flowise (Drag & Drop).</li>
+                                    <li>Memoria Conversacional: Implementación de Buffer Memory para dotar de retención de contexto real.</li>
+                                    <li>Cadenas LLM y RAG: Construcción avanzada de "cerebros corporativos" conectados a bases de datos vectoriales.</li>
+                                    <li>Seguridad y resguardo de datos corporativos privados.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>         <li>Agentes inteligentes integrados con APIs de terceros</li>
                                 </ul>
                             </div>
                         </div>
@@ -1135,45 +1293,42 @@
                 <h2 style="font-size: 3rem; line-height: 1.2;">Herramientas que <span
                         class="text-gradient">dominarás</span></h2>
                 <p style="color: #666; max-width: 600px; margin: 1.5rem auto 0; font-size: 1.05rem;">
-                    Aprende a orquestar el stack de herramientas líderes en automatización y desarrollo con IA sin
-                    escribir código.
-                </p>
-            </div>
-
-            <div class="bento-grid"
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-                <!-- Tool 1 -->
+                    Aprende a orquestar el stack de herramientas líderes en automatización y desar                <!-- Tool 1 -->
                 <div class="bento-card tool-card"
                     style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
-                    <img src="./Links/Google_Antigravity_Logo.png" alt="Google Antigravity Logo"
+                    <img src="./Links/logo-chat-gpt.png" alt="ChatGPT Logo"
                         style="height: 38px; width: auto; object-fit: contain; margin-bottom: 0.5rem;">
-                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Google Antigravity</h3>
-                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Plataforma avanzada de creación y
-                        despliegue de software y microapps internas guiada por instrucciones en lenguaje natural.</p>
+                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">ChatGPT (OpenAI)</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">El motor cognitivo conversacional líder de OpenAI para redacción de prompts y modelado estructurado de tareas de alta productividad.</p>
                 </div>
 
                 <!-- Tool 2 -->
                 <div class="bento-card tool-card"
                     style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
-                    <img src="./Links/microsoft-copilot-logo.svg" alt="Microsoft Copilot Logo"
+                    <img src="./Links/Perplexity_AI_logo.svg.png" alt="Perplexity Logo"
                         style="height: 38px; width: auto; object-fit: contain; margin-bottom: 0.5rem;">
-                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Copilot Studio</h3>
-                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Entorno empresarial de Microsoft para
-                        estructurar agentes de marketing autónomos, integrables en WhatsApp y webs corporativas.</p>
+                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Perplexity AI</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Motor de búsqueda web en tiempo real e investigación sectorial profunda, ideal para informes analíticos inmediatos.</p>
                 </div>
 
                 <!-- Tool 3 -->
                 <div class="bento-card tool-card"
                     style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
-                    <img src="./Links/logo-flowise.png" alt="Flowise Logo"
-                        style="height: 38px; width: auto; object-fit: contain; margin-bottom: 0.5rem;">
-                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Flowise AI</h3>
-                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Orquestador visual Drag & Drop para
-                        conectar LLMs con bases vectoriales, APIs y construir flujos cognitivos de memoria semántica.
-                    </p>
+                    <div style="font-size: 2.2rem; line-height: 1; margin-bottom: 0.2rem;">✨</div>
+                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Gemini (Google)</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Modelo multimodal avanzado de Google para razonamiento complejo, análisis documental de gran escala y automatización corporativa.</p>
                 </div>
 
                 <!-- Tool 4 -->
+                <div class="bento-card tool-card"
+                    style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
+                    <img src="./Links/logo-flowise.png" alt="Flowise Logo"
+                        style="height: 38px; width: auto; object-fit: contain; margin-bottom: 0.5rem;">
+                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Flowise AI</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Orquestador visual Drag & Drop para conectar LLMs con bases vectoriales, APIs y construir flujos interactivos de RAG.</p>
+                </div>
+
+                <!-- Tool 5 -->
                 <div class="bento-card tool-card"
                     style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
                     <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
@@ -1185,17 +1340,7 @@
                             style="height: 25px; width: auto; object-fit: contain;">
                     </div>
                     <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">n8n / Make</h3>
-                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Motores de automatización y orquestación
-                        para interconectar aplicaciones, sincronizar bases de datos y desencadenar agentes.</p>
-                </div>
-
-                <!-- Tool 5 -->
-                <div class="bento-card tool-card"
-                    style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
-                    <div style="font-size: 2.2rem; line-height: 1; margin-bottom: 0.2rem;">🧠</div>
-                    <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">LLMs de Vanguardia</h3>
-                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Integración profunda con los modelos más
-                        avanzados de la industria (GPT-4o, Claude 3.5 Sonnet, Llama 3) como motores cognitivos.</p>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Motores de automatización y orquestación para interconectar aplicaciones de negocio y sincronizar bases de datos con la IA.</p>
                 </div>
 
                 <!-- Tool 6 -->
@@ -1203,6 +1348,8 @@
                     style="padding: 2.5rem; text-align: left; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
                     <div style="font-size: 2.2rem; line-height: 1; margin-bottom: 0.2rem;">📁</div>
                     <h3 style="font-size: 1.2rem; margin: 0; font-family: var(--font-heading);">Bases Vectoriales</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Uso de bases vectoriales especializadas como Pinecone o ChromaDB para proveer memoria semántica y RAG corporativo.</p>
+                </div>mily: var(--font-heading);">Bases Vectoriales</h3>
                     <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">Uso de Pinecone y ChromaDB para almacenar
                         índices de documentos y proveer memoria a largo plazo a tus agentes.</p>
                 </div>
@@ -1216,61 +1363,59 @@
         <div class="container" style="position: relative; z-index: 2;">
             <div style="text-align: center; margin-bottom: 5rem;">
                 <p
-                    style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem;">
-                    ¿ES ESTO PARA TI?</p>
-                <h2 style="font-size: 3rem; line-height: 1.2;">Este curso es <span class="text-gradient">para ti
-                        si…</span></h2>
+                    style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem; text-transform: uppercase;">
+                    LO QUE TE LLEVAS CON ESTE PROGRAMA</p>
+                <h2 style="font-size: 3rem; line-height: 1.2;">Domina la IA y automatiza tu trabajo diario <span class="text-gradient"><br>en solo 50 horas</span></h2>
             </div>
-            <div class="bento-grid" style="max-width: 1000px; margin: 0 auto;">
+            <div class="bento-grid" style="max-width: 1000px; margin: 0 auto; margin-bottom: 4rem;">
+                <!-- Eje 1 -->
                 <div class="bento-card"
                     style="grid-column: span 6; display: flex; align-items: flex-start; gap: 1.5rem;">
-                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔
-                    </div>
+                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔️</div>
                     <div>
                         <h4
                             style="font-size: 1.1rem; color: white; margin-bottom: 0.5rem; font-family: var(--font-heading);">
-                            Resultados reales</h4>
-                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Quieres aplicar IA de
-                            verdad en tu empresa para automatizar operaciones de forma práctica.</p>
+                            Asistentes IA</h4>
+                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Aprende a utilizar la IA como un asistente profesional avanzado que multiplica tu capacidad.</p>
                     </div>
                 </div>
+                <!-- Eje 2 -->
                 <div class="bento-card"
                     style="grid-column: span 6; display: flex; align-items: flex-start; gap: 1.5rem;">
-                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔
-                    </div>
+                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔️</div>
                     <div>
                         <h4
                             style="font-size: 1.1rem; color: white; margin-bottom: 0.5rem; font-family: var(--font-heading);">
-                            Ahorro de recursos</h4>
-                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Buscas automatizar
-                            tareas, eliminar procesos manuales lentos y optimizar el tiempo de tu equipo.</p>
+                            Prompts Profesionales</h4>
+                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Diseña prompts estructurados, reproducibles y adaptados a objetivos corporativos.</p>
                     </div>
                 </div>
+                <!-- Eje 3 -->
                 <div class="bento-card"
                     style="grid-column: span 6; display: flex; align-items: flex-start; gap: 1.5rem;">
-                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔
-                    </div>
+                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔️</div>
                     <div>
                         <h4
                             style="font-size: 1.1rem; color: white; margin-bottom: 0.5rem; font-family: var(--font-heading);">
-                            Autonomía tecnológica</h4>
-                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Quieres crear
-                            soluciones propias, webs y flujos inteligentes sin depender de programadores externos.</p>
+                            Automatizaciones Inteligentes</h4>
+                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Automatiza tareas individuales y flujos de trabajo repetitivos para liberar tiempo de valor.</p>
                     </div>
                 </div>
+                <!-- Eje 4 -->
                 <div class="bento-card"
                     style="grid-column: span 6; display: flex; align-items: flex-start; gap: 1.5rem;">
-                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔
-                    </div>
+                    <div style="color: var(--accent-color); font-size: 1.5rem; line-height: 1; font-weight: 900;">✔️</div>
                     <div>
                         <h4
                             style="font-size: 1.1rem; color: white; margin-bottom: 0.5rem; font-family: var(--font-heading);">
-                            Liderazgo e Innovación</h4>
-                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Necesitas adaptarte de
-                            inmediato al nuevo entorno digital y liderar la transformación en tu sector.</p>
+                            Pensamiento Crítico</h4>
+                        <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6; margin: 0;">Desarrollarás las competencias necesarias para analizar grandes volúmenes de información con soporte de IA bajo un criterio analítico estricto.</p>
                     </div>
                 </div>
             </div>
+            <p style="font-family: var(--font-mono); color: var(--secondary-accent); font-size: 0.9rem; text-align: center; text-transform: uppercase; letter-spacing: 0.1em;">
+                ...y somos líderes en transformar empresas
+            </p>
         </div>
     </section>
 
@@ -1379,31 +1524,27 @@
                     <!-- Session 1 -->
                     <div class="cal-detail" id="cal-detail-1" hidden>
                         <div class="cal-detail-tag">SESIÓN 01 · 15 JULIO</div>
-                        <h3 class="cal-detail-title">Software con IA — Google Antigravity</h3>
-                        <p class="cal-detail-desc">Aprende a crear aplicaciones, microapps y herramientas internas con
-                            instrucciones en lenguaje natural, sin escribir una sola línea de código tradicional.</p>
+                        <h3 class="cal-detail-title">Fundamentos & Prompt Engineering</h3>
+                        <p class="cal-detail-desc">Iníciate en el ecosistema de la Inteligencia Artificial y domina el diseño avanzado de prompts adaptados a roles profesionales específicos.</p>
                         <ul class="cal-detail-list">
-                            <li>Fundamentos de creación de software con IA</li>
-                            <li>Microapps de consumo interno para tu empresa</li>
-                            <li>Dashboards y analíticas de datos en tiempo real</li>
-                            <li>Landing pages completas optimizadas para captación</li>
-                            <li>Herramientas internas para optimización de flujos de trabajo</li>
+                            <li>Qué es la IA y de qué forma transforma el trabajo profesional</li>
+                            <li>Taller práctico: creación de tus primeros prompts estructurados</li>
+                            <li>Configuración de prompts especializados por rol profesional</li>
+                            <li>Construcción de tu biblioteca personal de prompts reutilizables</li>
+                            <li>Herramientas clave de partida: ChatGPT y Gemini</li>
                         </ul>
                     </div>
 
                     <!-- Session 2 -->
                     <div class="cal-detail" id="cal-detail-2" hidden>
                         <div class="cal-detail-tag">SESIÓN 02 · 16 JULIO</div>
-                        <h3 class="cal-detail-title">Agentes de Marketing — Copilot Studio</h3>
-                        <p class="cal-detail-desc">Diseña y despliega agentes de marketing autónomos con Microsoft
-                            Copilot Studio. Conecta WhatsApp, webs corporativas y flujos de captación de leads sin
-                            fricción.</p>
+                        <h3 class="cal-detail-title">Investigación & Análisis de Datos</h3>
+                        <p class="cal-detail-desc">Explota motores avanzados de búsqueda e investigación asistida en tiempo real, automatizando la recopilación y síntesis en informes de nivel ejecutivo.</p>
                         <ul class="cal-detail-list">
-                            <li>Arquitectura de agentes conversacionales</li>
-                            <li>Integración nativa con Microsoft 365</li>
-                            <li>Agentes para atención al cliente y ventas</li>
-                            <li>Configuración de flujos de respuesta inteligente</li>
-                            <li>Publicación en canales: WhatsApp, web, Teams</li>
+                            <li>Explotación profesional de Perplexity para investigación de mercado</li>
+                            <li>Estrategias de búsqueda estructurada e información competitiva</li>
+                            <li>Taller práctico: elaboración de un informe ejecutivo generado con IA</li>
+                            <li>Criterio crítico: mitigación de alucinaciones y validación de fuentes</li>
                         </ul>
                     </div>
 
@@ -1411,37 +1552,85 @@
                     <div class="cal-detail" id="cal-detail-3" hidden>
                         <div class="cal-detail-tag">SESIÓN 03 · 22 JULIO</div>
                         <h3 class="cal-detail-title">Cerebros Visuales — Flowise AI</h3>
-                        <p class="cal-detail-desc">Orquesta modelos de lenguaje avanzados mediante flujos visuales Drag
-                            & Drop. Construye sistemas con memoria semántica, bases vectoriales y acceso a conocimiento
-                            corporativo.</p>
+                        <p class="cal-detail-desc">Orquesta lógicas complejas de manera visual. Conecta modelos LLM de lenguaje con bases vectoriales privadas que representan la memoria de tu negocio.</p>
                         <ul class="cal-detail-list">
-                            <li>Flujos avanzados mediante nodos lógicos</li>
-                            <li>Asistentes virtuales con memoria a largo plazo</li>
-                            <li>Sistemas RAG conectados a documentos de negocio</li>
-                            <li>Bases de conocimiento dinámicas e hiper-personalizadas</li>
-                            <li>Agentes inteligentes integrados con APIs de terceros</li>
+                            <li>Orquestación visual Drag & Drop: instalación y uso de Flowise</li>
+                            <li>Memoria Conversacional: implementación de Buffer Memory contextual</li>
+                            <li>Cadenas LLM y arquitecturas RAG (Retrieval-Augmented Generation)</li>
+                            <li>Conexión de bases vectoriales con conocimiento exclusivo de tu empresa</li>
                         </ul>
                     </div>
 
                     <!-- Session 4 -->
                     <div class="cal-detail" id="cal-detail-4" hidden>
                         <div class="cal-detail-tag">SESIÓN 04 · 23 JULIO</div>
-                        <h3 class="cal-detail-title">Automatización Total — n8n / Make</h3>
-                        <p class="cal-detail-desc">Despliega flujos de automatización que interconectan todas tus
-                            herramientas y agentes. Elimina tareas repetitivas y libera horas de trabajo de alta
-                            cualificación.</p>
+                        <h3 class="cal-detail-title">Automatización de Procesos (Productividad)</h3>
+                        <p class="cal-detail-desc">Despliega flujos de automatización que interconectan la IA con tus CRM, emails y herramientas diarias, liberando horas repetitivas de trabajo.</p>
                         <ul class="cal-detail-list">
-                            <li>Diseño de flujos de automatización end-to-end</li>
-                            <li>Sincronización de CRM, email y calendarios</li>
-                            <li>Triggers inteligentes basados en eventos</li>
-                            <li>Integración con n8n, Make y Zapier</li>
-                            <li>Proyecto final: automatización real de tu empresa</li>
+                            <li>Diseño conceptual e implementación de un flujo integral IA + automatización</li>
+                            <li>Uso práctico de n8n y Make para integración de APIs</li>
+                            <li>Sincronización automatizada de tareas individuales y flujos grupales</li>
+                            <li>Proyecto Final: automatización real aplicada a las necesidades de tu empresa</li>
                         </ul>
-                        <a href="#registro" class="btn btn-primary"
+                        <a href="#contacto-final" class="btn btn-primary"
                             style="margin-top: 2rem; width: 100%; text-align: center;">Reservar mi plaza →</a>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- PERFIL DEL ALUMNO -->
+    <section id="perfil-alumno" style="background: linear-gradient(to bottom, #000000, #050505); padding: 10rem 0; border-top: 1px solid rgba(255,255,255,0.05); position: relative;">
+        <div class="parallax-bg" style="background-image: url('./Links/src/Recurso 4.svg');"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div style="text-align: center; margin-bottom: 5rem;">
+                <p style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem; text-transform: uppercase;">
+                    PERFIL DEL ALUMNO
+                </p>
+                <h2 style="font-size: 3rem; line-height: 1.2;">Diseñado para líderes con <br><span class="text-gradient">visión estratégica</span></h2>
+                <p style="color: #888; max-width: 600px; margin: 1.5rem auto 0; font-size: 1.05rem; line-height: 1.7;">
+                    Este programa ejecutivo está diseñado específicamente para profesionales dedicidos a dar el salto del uso superficial de la IA a la arquitectura de soluciones reales.
+                </p>
+            </div>
+
+            <div class="bento-grid" style="max-width: 1100px; margin: 0 auto;">
+                <!-- Perfil 1 -->
+                <div class="bento-card span-3" style="text-align: left; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="font-size: 2.2rem; margin-bottom: 1rem;">🎯</div>
+                    <div>
+                        <h3 style="font-size: 1.15rem; color: #fff; margin-bottom: 0.5rem; font-family: var(--font-heading);">Gerentes y Directores</h3>
+                        <p style="color: #888; font-size: 0.85rem; line-height: 1.5; margin: 0;">Directores de área que necesitan agilizar flujos operativos e implementar automatizaciones eficientes.</p>
+                    </div>
+                </div>
+
+                <!-- Perfil 2 -->
+                <div class="bento-card span-3" style="text-align: left; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="font-size: 2.2rem; margin-bottom: 1rem;">💼</div>
+                    <div>
+                        <h3 style="font-size: 1.15rem; color: #fff; margin-bottom: 0.5rem; font-family: var(--font-heading);">CEOs y Directores Generales</h3>
+                        <p style="color: #888; font-size: 0.85rem; line-height: 1.5; margin: 0;">Líderes que buscan diseñar y orquestar la hoja de ruta definitiva de IA para sus corporaciones.</p>
+                    </div>
+                </div>
+
+                <!-- Perfil 3 -->
+                <div class="bento-card span-3" style="text-align: left; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="font-size: 2.2rem; margin-bottom: 1rem;">🚀</div>
+                    <div>
+                        <h3 style="font-size: 1.15rem; color: #fff; margin-bottom: 0.5rem; font-family: var(--font-heading);">Emprendedores</h3>
+                        <p style="color: #888; font-size: 0.85rem; line-height: 1.5; margin: 0;">Fundadores que buscan escalar startups y optimizar recursos con el stack tecnológico de la IA.</p>
+                    </div>
+                </div>
+
+                <!-- Perfil 4 -->
+                <div class="bento-card span-3" style="text-align: left; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="font-size: 2.2rem; margin-bottom: 1rem;">🛠️</div>
+                    <div>
+                        <h3 style="font-size: 1.15rem; color: #fff; margin-bottom: 0.5rem; font-family: var(--font-heading);">Optimización & UX</h3>
+                        <p style="color: #888; font-size: 0.85rem; line-height: 1.5; margin: 0;">Especialistas en marketing digital, analítica digital, UX, automatización y productividad.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1523,6 +1712,65 @@
                             internacional QS Stars que certifica con la máxima puntuación nuestra excelencia en
                             empleabilidad, docencia y recursos.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONVERSIÓN FINAL -->
+    <section id="contacto-final" style="background: linear-gradient(to top, #000000, #050505); padding: 10rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container">
+            <div style="display: flex; gap: 4rem; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <div style="flex: 1 1 500px;">
+                    <p style="font-family: var(--font-mono); color: var(--accent-color); font-size: 0.8rem; letter-spacing: 0.2em; margin-bottom: 1.5rem; text-transform: uppercase;">
+                        CONVIÉRTETE EN UN PROFESIONAL AUMENTADO
+                    </p>
+                    <h2 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 2rem;">
+                        Transforma tu futuro profesional <br><span class="text-gradient">y el de tu negocio hoy mismo</span>
+                    </h2>
+                    <p style="color: #888; font-size: 1.1rem; line-height: 1.8; margin-bottom: 2.5rem; max-width: 600px;">
+                        Aprende a integrar, optimizar y automatizar de forma 100% práctica en 50 horas lectivas con el respaldo y prestigio internacional de ENAE Business School.
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 1rem;">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: #ccc;">
+                            <span style="color: var(--accent-color); font-size: 1.1rem;">✔️</span>
+                            <span style="font-size: 0.95rem;">Programa 100% bonificable por Fundae.</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: #ccc;">
+                            <span style="color: var(--accent-color); font-size: 1.1rem;">✔️</span>
+                            <span style="font-size: 0.95rem;">Incluye licencias educativas de las herramientas por 1 año.</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.75rem; color: #ccc;">
+                            <span style="color: var(--accent-color); font-size: 1.1rem;">✔️</span>
+                            <span style="font-size: 0.95rem;">Acceso prioritario a más de 100 horas de Biblioteca Digital de Recursos.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-form glass" style="flex: 0 0 420px; max-width: 100%; padding: 2.5rem; border: 1px solid rgba(168,23,48,0.1); box-shadow: 0 40px 100px rgba(0,0,0,0.8);">
+                    <h3 style="margin-bottom: 1.5rem; text-align: left; font-size: 1.6rem; line-height: 1.1;">Solicita tu <br><span style="color: var(--accent-color);">Plaza Bonificada</span></h3>
+                    <form id="lead-form-final">
+                        <div class="form-group">
+                            <label>NOMBRE COMPLETO</label>
+                            <input type="text" placeholder="Ej. Alex Rivera" required>
+                        </div>
+                        <div class="form-group">
+                            <label>EMAIL CORPORATIVO</label>
+                            <input type="email" placeholder="alex@empresa.ai" required>
+                        </div>
+                        <div class="form-group">
+                            <label>TELÉFONO DE CONTACTO</label>
+                            <input type="tel" placeholder="Ej. +34 600 000 000" required style="width: 100%; padding: 0.8rem 1rem; background: var(--input-bg); border: 1px solid var(--border-color); color: white; border-radius: 0.5rem; font-family: var(--font-body);">
+                        </div>
+                        <div class="form-group">
+                            <label>EMPRESA</label>
+                            <input type="text" placeholder="Ej. ALM Corp" required style="width: 100%; padding: 0.8rem 1rem; background: var(--input-bg); border: 1px solid var(--border-color); color: white; border-radius: 0.5rem; font-family: var(--font-body);">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: 0.5rem; margin-top: 1.5rem; padding: 0.9rem;">Inscribirme y Solicitar Bonificación</button>
+                    </form>
+                    <p style="font-size: 0.65rem; color: #888; margin-top: 1.2rem; text-align: center; line-height: 1.4; font-family: var(--font-mono);">
+                        🔒 Datos protegidos. ENAE Business School utilizará tus datos únicamente para informarte sobre esta convocatoria y gestionar tu bonificación.
+                    </p>
                 </div>
             </div>
         </div>

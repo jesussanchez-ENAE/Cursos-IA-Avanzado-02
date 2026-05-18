@@ -1,0 +1,153 @@
+--- Page 1 ---
+IA APLICADA 
+AL NEGOCIO 
+REAL
+Sé un nuevo profesional 
+aumentado por la IA.
+Aprenderás lo necesario 
+para aprender a trabajar de
+manera más inteligente y 
+más eficiente.
+Herramientas 
+Gratuitas y Licencias 
+Educativas (1 año).
++100 Horas de 
+Biblioteca
+Digital de Recursos.
+Caso de uso real: 
+Aprende haciendo, no 
+escuchando.
+Aprende a implementar la IA 
+en tu negocio/empresa para 
+agilizar procesos.
+Utiliza lo último en programas 
+de Inteligencia Artificial para 
+aplicarlo directamente en tu 
+empresa o negocio.
+APRENDE A 
+IMPLEMENTAR LA IA
+LO ÚLTIMO 
+EN IA
+Bonificable 
+por Fundae
+--- Page 2 ---
+¿POR QUÉ 
+ESTE CURSO?
+60%
+ 43%
+ 30%
+Pasa de consumidor de herramientas
+a arquitecto de tu propia tecnología
+(2024–2035) — el 43% de los empleadores a nivel mundial 
+planea usar IA para reducir plantilla, y sin adaptación el 
+porcentaje de empleos en riesgo pasa del 18% actual al 62% en 
+2035. La línea verde muestra que las empresas que adoptan IA 
+lo contienen en torno al 12%. ALM Corp
+EMPLEOS NECESITAN 
+ADAPTACIÓN
+EMPRESAS REDUCEN 
+PLANTILLA
+AUTOMATIZACIÓN 
+EN 2030
+
+--- Page 3 ---
+Un programa 100% 
+práctico para 
+transformar tu 
+empresa con IA
+Pasa de usar herramientas de IA a 
+construir soluciones reales para tu 
+negocio.
+Aprenderás a:
+• Crear micro-aplicaciones mediante 
+prompts.
+• Diseñar agentes inteligentes para 
+marketing y soporte.
+• Automatizar procesos empresariales.
+• Conectar IA con bases de conocimiento 
+propias.
+• Prototipar dashboards y herramientas 
+web.
+• Diseñar la hoja de ruta IA de tu 
+empresa.
+Caso de uso real: 
+aprende haciendo, no escuchando.
+
+--- Page 4 ---
+...y somos líderes en 
+transformar empresas
+Utilizar IA como asistente
+profesional avanzado.
+Diseñar prompts 
+estructurados y 
+reproducibles.
+Automatizar tareas
+individuales
+Analizar información con 
+IA con criterio crítico.
+ASISTENTES IA
+PROMPTS
+AUTOMATIZACIONES
+APRENDER A ANALIZAR
+LO QUE TE LLEVAS
+CON ESTE 
+PROGRAMA
+Un programa académico 100% práctico
+para dominar la IA y automatizar tu 
+trabajo diario en solo 50 horas.
+--- Page 5 ---
+CONTENIDOS
+Horas
+lectivas
+50h.
+Qué es IA y cómo impacta el trabajo 
+profesional
+Taller: primeros prompts estructurados
+Fundamentos IA Profesional
+1.1
+Arquitectura de prompts
+Cadena de razonamiento
+Prompts por rol profesional
+Creación de biblioteca personal de 
+prompts
+Prompt Engineering aplicado
+1.2
+Herramientas
+que manejarás
+AUTOMATIZACIONES
+Perplexity para investigación
+Taller: informe ejecutivo generado con 
+IA
+Investigación y análisis
+1.3
+Diseño de flujo completo IA + 
+automatización
+Productividad y automatización
+1.4
+ChatGPT
+Perplexity 
+(Investigación)
+Gemini
+
+--- Page 6 ---
+• Gerentes
+• Directores Generales
+• Emprendedores
+• Perfiles con visión 
+estratégica
+¿PARA QUIÉN ES 
+ESTE PROGRAMA?
+PERFIL DEL ALUMNO
+Orquestación visual Open Source: Insta-
+lación y uso de Flowise para crear flujos 
+complejos arrastrando cajas (Drag & Drop).
+Memoria conversacional: Implementación de 
+Buffer Memory para que el chatbot recuer-
+de el contexto de la charla, algo que los 
+chatbots básicos no hacen.
+Cadenas LLM y RAG: Construcción de “cere-
+bros” que conectan un modelo de lengua-
+je con una base de datos vectorial propia 
+(conocimiento de la empresa).
+Cerebros Visuales (6h)
+1.3
