@@ -4,7 +4,7 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/AdobeFnt25.lst
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/AdobeFnt25.lst
 FileLength:6770
 FileModTime:799868102
 %EndFont
@@ -22,7 +22,7 @@ WidthClass:5
 AngleClass:0
 FullName:Kurdis Black
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Kurdis-Black.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Kurdis-Black.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -48,7 +48,7 @@ WidthClass:5
 AngleClass:0
 FullName:Kurdis Bold
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Kurdis-Bold.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Kurdis-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -74,7 +74,7 @@ WidthClass:5
 AngleClass:0
 FullName:Kurdis ExtraBold
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Kurdis-ExtraBold.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Kurdis-ExtraBold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -100,7 +100,7 @@ WidthClass:5
 AngleClass:0
 FullName:Minion Pro
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/MinionPro-Regular.otf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/MinionPro-Regular.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -128,7 +128,7 @@ WidthClass:5
 AngleClass:0
 FullName:Nohemi Black
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Nohemi-Black.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Nohemi-Black.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -154,7 +154,7 @@ WidthClass:5
 AngleClass:0
 FullName:Nohemi Bold
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Nohemi-Bold.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Nohemi-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -179,7 +179,7 @@ WidthClass:5
 AngleClass:0
 FullName:Nohemi Extra Bold
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Nohemi-ExtraBold.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Nohemi-ExtraBold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -205,7 +205,7 @@ WidthClass:5
 AngleClass:0
 FullName:Nohemi Light
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Nohemi-Light.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Nohemi-Light.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -231,7 +231,7 @@ WidthClass:5
 AngleClass:0
 FullName:Nohemi Regular
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/Nohemi-Regular.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/Nohemi-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -256,7 +256,7 @@ WidthClass:5
 AngleClass:0
 FullName:Space Mono Bold
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/SpaceMono-Bold.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/SpaceMono-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -280,7 +280,7 @@ WidthClass:5
 AngleClass:1
 FullName:Space Mono Italic
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/SpaceMono-Italic.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/SpaceMono-Italic.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no
@@ -304,7 +304,7 @@ WidthClass:5
 AngleClass:0
 FullName:Space Mono Regular
 WritingScript:Roman
-OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Avanzado/Carpeta Curso_IA_Avanzado/Document fonts/SpaceMono-Regular.ttf
+OutlineFileName:/Users/jesus/Documents/GitHub/Cursos IA Intermedio/Carpeta Curso_IA_Intermedio/Document fonts/SpaceMono-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 hasSBIX:no

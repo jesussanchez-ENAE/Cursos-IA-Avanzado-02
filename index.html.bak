@@ -576,7 +576,7 @@
             <div class="hero-content">
                 <div class="hero-label">
                     <span class="line"></span>
-                    <span class="text">PROGRAMA AVANZADO DE IA</span>
+                    <span class="text">PROGRAMA INTERMEDIO DE IA</span>
                 </div>
                 <h1>
                     LA FÁBRICA <br>
@@ -918,7 +918,7 @@
                         <div class="accordion-inner">
                             <div class="accordion-left">
                                 <p class="desc">
-                                    Construye arquitecturas avanzadas de inteligencia artificial conectando bloques de lógica visuales mediante sistemas Drag & Drop.
+                                    Construye arquitecturas intermedias de inteligencia artificial conectando bloques de lógica visuales mediante sistemas Drag & Drop.
                                 </p>
                                 <p class="desc secondary">
                                     Une modelos de lenguaje, bases vectoriales y herramientas de terceros para crear sistemas RAG con memoria persistente y procesos lógicos automatizados.
@@ -927,8 +927,8 @@
                             <div class="accordion-right">
                                 <h4>APLICACIONES QUE DESARROLLARÁS:</h4>
                                 <ul class="program-list">
-                                    <li>Flujos avanzados Drag & Drop mediante nodos lógicos</li>
-                                    <li>Asistentes virtuales con gestión de memoria avanzada</li>
+                                    <li>Flujos intermedios Drag & Drop mediante nodos lógicos</li>
+                                    <li>Asistentes virtuales con gestión de memoria intermedia</li>
                                     <li>Sistemas RAG conectados a tus documentos de negocio</li>
                                     <li>Bases de conocimiento dinámicas e hiper-personalizadas</li>
                                     <li>Agentes inteligentes integrados con APIs de terceros</li>
@@ -956,7 +956,7 @@
                 <div class="bento-card span-4 tool-card">
                     <img src="./Links/Google_Antigravity_Logo.png" alt="Google Antigravity Logo" class="tool-logo">
                     <h3>Google Antigravity</h3>
-                    <p>Plataforma avanzada de creación y despliegue de software y microapps internas guiada por instrucciones en lenguaje natural.</p>
+                    <p>Plataforma intermedia de creación y despliegue de software y microapps internas guiada por instrucciones en lenguaje natural.</p>
                 </div>
 
                 <!-- Tool 2 -->
@@ -988,7 +988,7 @@
                 <div class="bento-card span-4 tool-card">
                     <div class="tool-emoji">🧠</div>
                     <h3>LLMs de Vanguardia</h3>
-                    <p>Integración profunda con los modelos más avanzados de la industria (GPT-4o, Claude 3.5 Sonnet, Llama 3) como motores cognitivos.</p>
+                    <p>Integración profunda con los modelos más intermedios de la industria (GPT-4o, Claude 3.5 Sonnet, Llama 3) como motores cognitivos.</p>
                 </div>
 
                 <!-- Tool 6 -->
@@ -1155,9 +1155,9 @@
                     <div class="cal-detail" id="cal-detail-3" hidden>
                         <div class="cal-detail-tag">SESIÓN 03 · 22 JULIO</div>
                         <h3 class="cal-detail-title">Cerebros Visuales — Flowise AI</h3>
-                        <p class="cal-detail-desc">Orquesta modelos de lenguaje avanzados mediante flujos visuales Drag & Drop. Construye sistemas con memoria semántica, bases vectoriales y acceso a conocimiento corporativo.</p>
+                        <p class="cal-detail-desc">Orquesta modelos de lenguaje intermedios mediante flujos visuales Drag & Drop. Construye sistemas con memoria semántica, bases vectoriales y acceso a conocimiento corporativo.</p>
                         <ul class="cal-detail-list">
-                            <li>Flujos avanzados mediante nodos lógicos</li>
+                            <li>Flujos intermedios mediante nodos lógicos</li>
                             <li>Asistentes virtuales con memoria a largo plazo</li>
                             <li>Sistemas RAG conectados a documentos de negocio</li>
                             <li>Bases de conocimiento dinámicas e hiper-personalizadas</li>

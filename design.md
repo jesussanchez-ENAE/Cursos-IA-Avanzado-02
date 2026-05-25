@@ -188,7 +188,7 @@ Se inyectan dinámicamente en el DOM dos contenedores fijos al inicio de la carg
 - `.scroll-blur-mask-top`: Ubicada en la parte superior del viewport (altura `140px`). Sits justo por debajo de la barra de navegación (`z-index: 90`).
 - `.scroll-blur-mask-bottom`: Ubicada en la parte inferior del viewport (altura `110px`).
 
-### B. Técnicas CSS Avanzadas (Progressive Blur Masking)
+### B. Técnicas CSS Intermedias (Progressive Blur Masking)
 Para que el efecto no corte de manera abrupta, se combina un gradiente lineal de color de fondo con una máscara de opacidad CSS progresiva:
 ```css
 .scroll-blur-mask {
